@@ -7,101 +7,101 @@ $(function() {
       var health = $('input[name=health]:checked', '#myForm').val();
 
 		if (climate === "0" && activity === "0" && cost === "0" && population === "0" && health === "0") {
-			$("#appendList").append("<p> vacation 00000 </p>");
+			$("#appendList").text(" Vacation 00000 ");
 		}
 		else if (climate === "0" && activity === "0" && cost === "0" && population === "0" && health === "1") {
-			$("#appendList").append("<p>  vacation 00001  </p>");
+			$("#appendList").text("  Vacation 00001  ");
 		}
 
 		else if (climate === "0" && activity === "0" && cost === "0" && population === "1" && health === "1") {
-			$("#appendList").append("<p>  vacation 00011  </p>");
+			$("#appendList").text("  Vacation 00011  ");
 		}
 		else if (climate === "0" && activity === "0" && cost === "0" && population === "1" && health === "0") {
-			$("#appendList").append("<p>  vacation 00010  </p>");
+			$("#appendList").text("  Vacation 00010  ");
 		}
 		else if (climate === "0" && activity === "0" && cost === "1" && population === "0" && health === "1") {
-			$("#appendList").append("<p>  vacation 00101  </p>");
+			$("#appendList").text("  Vacation 00101  ");
 		}
 		else if (climate === "0" && activity === "0" && cost === "1" && population === "0" && health === "0") {
-			$("#appendList").append("<p>  vacation 00100  </p>");
+			$("#appendList").text("  Vacation 00100  ");
 		}
 		else if (climate === "0" && activity === "0" && cost === "1" && population === "1" && health === "1") {
-			$("#appendList").append("<p>  vacation 00111  </p>");
+			$("#appendList").text("  Vacation 00111  ");
 		}
 		else if (climate === "0" && activity === "0" && cost === "1" && population === "1" && health === "0") {
-			$("#appendList").append("<p>  vacation 00110  </p>");
+			$("#appendList").text("  Vacation 00110  ");
 		}
 		else if (climate === "0" && activity === "1" && cost === "0" && population === "0" && health === "1") {
-			$("#appendList").append("<p>  vacation 01001  </p>");
+			$("#appendList").text("  Vacation 01001  ");
 		}
 		else if (climate === "0" && activity === "1" && cost === "0" && population === "0" && health === "0") {
-			$("#appendList").append("<p>  vacation 01000  </p>");
+			$("#appendList").text("  Vacation 01000  ");
 		}
 		else if (climate === "0" && activity === "1" && cost === "0" && population === "1" && health === "1") {
-			$("#appendList").append("<p>  vacation 01011  </p>");
+			$("#appendList").text("  Vacation 01011  ");
 		}
 		else if (climate === "0" && activity === "1" && cost === "0" && population === "1" && health === "0") {
-			$("#appendList").append("<p>  vacation 01010  </p>");
+			$("#appendList").text("  Vacation 01010  ");
 		}
 		else if (climate === "0" && activity === "1" && cost === "1" && population === "0" && health === "1") {
-			$("#appendList").append("<p>  vacation 01101  </p>");
+			$("#appendList").text("  Vacation 01101  ");
 		}
 		else if (climate === "0" && activity === "1" && cost === "1" && population === "0" && health === "0") {
-			$("#appendList").append("<p>  vacation 01100  </p>");
+			$("#appendList").text("  Vacation 01100  ");
 		}
 		else if (climate === "0" && activity === "1" && cost === "1" && population === "1" && health === "1") {
-			$("#appendList").append("<p>  vacation 01111  </p>");
+			$("#appendList").text("  Vacation 01111  ");
 		}
 		else if (climate === "0" && activity === "1" && cost === "1" && population === "1" && health === "0") {
-			$("#appendList").append("<p>  vacation 01110  </p>");
+			$("#appendList").text("  Vacation 01110  ");
 		}
 		else if (climate === "1" && activity === "0" && cost === "0" && population === "0" && health === "1") {
-			$("#appendList").append("<p>  vacation 10001  </p>");
+			$("#appendList").text("  Vacation 10001  ");
 		}
 		else if (climate === "1" && activity === "0" && cost === "0" && population === "0" && health === "0") {
-			$("#appendList").append("<p>  vacation 10000  </p>");
+			$("#appendList").text("  Vacation 10000  ");
 		}
 		else if (climate === "1" && activity === "0" && cost === "0" && population === "1" && health === "1") {
-			$("#appendList").append("<p>  vacation 10011  </p>");
+			$("#appendList").text("  Vacation 10011  ");
 		}
 		else if (climate === 1 && activity === "0" && cost === "0" && population === "1" && health === "0") {
-			$("#appendList").append("<p>  vacation 10010  </p>");
+			$("#appendList").text("  Vacation 10010  ");
 		}
 		else if (climate === "1" && activity === "0" && cost === "1" && population === "0" && health === "1") {
-			$("#appendList").append("<p>  vacation 10101  </p>");
+			$("#appendList").text("  Vacation 10101  ");
 		}
 		else if (climate === "1" && activity === "0" && cost === "1" && population === "0" && health === "0") {
-			$("#appendList").append("<p>  vacation 10100  </p>");
+			$("#appendList").text("  Vacation 10100  ");
 		}
 		else if (climate === "1" && activity === "0" && cost === "1" && population === "1" && health === "1") {
-			$("#appendList").append("<p>  vacation 10111  </p>");
+			$("#appendList").text("  Vacation 10111  ");
 		}
 		else if (climate === "1" && activity === "0" && cost === "1" && population === "1" && health === "0") {
-			$("#appendList").append("<p>  vacation 10110  </p>");
+			$("#appendList").text("  Vacation 10110  ");
 		}
 		else if (climate === "1" && activity === "1" && cost === "0" && population === "0" && health === "1") {
-			$("#appendList").append("<p>  vacation 11001  </p>");
+			$("#appendList").text("  Vacation 11001  ");
 		}
 		else if (climate === "1" && activity === "1" && cost === "0" && population === "0" && health === "0") {
-			$("#appendList").append("<p>  vacation 11000  </p>");
+			$("#appendList").text("  Vacation 11000  ");
 		}
 		else if (climate === "1" && activity === "1" && cost === "0" && population === "1" && health === "1") {
-			$("#appendList").append("<p>  vacation 11011  </p>");
+			$("#appendList").text("  Vacation 11011  ");
 		}
 		else if (climate === "1" && activity === "1" && cost === "0" && population === "1" && health === "0") {
-			$("#appendList").append("<p>  vacation 11010  </p>");
+			$("#appendList").text("  Vacation 11010  ");
 		}
 		else if (climate === "1" && activity === "1" && cost === "1" && population === "0" && health === "1") {
-			$("#appendList").append("<p>  vacation 11101  </p>");
+			$("#appendList").text("  Vacation 11101  ");
 		}
 		else if (climate === "1" && activity === "1" && cost === "1" && population === "0" && health === "0") {
-			$("#appendList").append("<p>  vacation 11100  </p>");
+			$("#appendList").text("  Vacation 11100  ");
 		}
 		else if (climate === "1" && activity === "1" && cost === "1" && population === "1" && health === "1") {
-			$("#appendList").append("<p>  vacation 11111  </p>");
+			$("#appendList").text("  Vacation 11111  ");
 		}
 		else if (climate === "0" && activity === "0" && cost === "0" && population === "0" && health === "1") {
-		    $("#appendList").append("<p>  vacation 00001  </p>");
+		    $("#appendList").text("  Vacation 00001  ");
 		}
 		else {
 			alert("Please answer all questions before submitting.");
