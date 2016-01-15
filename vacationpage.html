@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Vacation Destination Selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="myForm">
+
+      <div class="well">
+        <div class="radio">
+          <h4>Would you prefer to visit a warmer or mild climate?</h4>
+          <label>
+            <input type="radio" name="climate" id="tropical" value="0" >
+            Warm(tropical)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="climate" id="mild" value="1" >
+            Mild
+          </label>
+        </div>
+      </div>
+
+       <div class="well">
+        <div class="radio">
+          <h4>Would you rather relax on vaction or do something adventurous?</h4>
+          <label>
+            <input type="radio" name="activity" id="relax" value="0" >
+            Relax
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" id="adventure" value="1" >
+            Let's go on an adventure!
+          </label>
+        </div>
+      </div>
+
+       <div class="well">
+        <div class="radio">
+          <h4>Would you prefer a budget vacation, or a luxury vacation?</h4>
+          <label>
+            <input type="radio" name="cost" id="budget" value="0" >
+            Budget(cheaper is better)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="cost" id="luxury" value="1" >
+            Luxury(cost isn't a factor)
+          </label>
+        </div>
+      </div>
+
+         <div class="well">
+        <div class="radio">
+          <h4>Would you enjoy an urban area, or a more secluded spot?</h4>
+          <label>
+            <input type="radio" name="population" id="urban" value="0" >
+            Urban
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="population" id="secluded" value="1" >
+            Secluded
+          </label>
+        </div>
+      </div>
+
+      <div class="well">
+        <div class="radio">
+          <h4>Do you have any health problems that prevent long travel distances?</h4>
+          <label>
+            <input type="radio" name="health" id="yes" value="0" >
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="health" id="no" value="1" >
+            No
+          </label>
+        </div>
+      </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div id="appendList">
+        <p>Your vacation spot is:</p>
+      </div>
+    </div>
+  </body>
+</html>
